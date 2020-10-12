@@ -39,12 +39,7 @@ p {
 }
 
 .hero {
-    margin-bottom: 10%;
-}
-
-.proposition {
-    margin-top: 2.5em;
-    margin-bottom: 2.5em;
+    margin-bottom: 7%;
 }
 
 .logo {
@@ -61,12 +56,12 @@ form input, button {
 form input {
     background: #FFF;
     border: 1px solid #DDD;
-    width: calc(100% - 200px);
+    width: calc(100% - 160px);
     max-width: 300px;
 }
 
 form button {
-    width: 150px;
+    width: 80px;
     background: #102B4C;
     margin-left: 10px;
 
@@ -100,11 +95,16 @@ footer {
     background: #EFF8FF;
     padding-top: 75px;
     padding-bottom: 75px;
+    margin-top: 4em;
 }
 
 .footer-cta > div {
     width: 90%;
     margin: auto;
+}
+
+.hero .form {
+    margin-top: 3em;
 }
 
 /* Mobile */
