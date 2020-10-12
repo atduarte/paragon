@@ -51,6 +51,7 @@ p {
     max-width: 150px;
 }
 form input, button {
+    font-family: 'Inter', sans-serif;
     padding: 13px 16px;
     border-radius: 6px;
     font-size: 14px;
@@ -58,7 +59,7 @@ form input, button {
 }
 
 form input {
-    background: #EEEEEE;
+    background: #FFF;
     border: 1px solid #DDD;
     width: calc(100% - 200px);
     max-width: 300px;
