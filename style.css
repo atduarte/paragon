@@ -1,0 +1,130 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+.container {
+    max-width: 1000px;
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.row {
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Bitter', serif;
+    font-weight: 700;
+    font-size: 3.25em;
+    margin-block-start: 0.3em;
+}
+
+h2 {
+    font-family: 'Bitter', serif;
+    font-weight: 700;
+    font-size: 2.5em;
+    margin-block-start: 0em;
+}
+
+p {
+    font-size: 17px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+}
+
+.hero {
+    margin-bottom: 10%;
+}
+
+.proposition {
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+}
+
+.logo {
+    max-width: 150px;
+}
+form input, button {
+    padding: 13px 16px;
+    border-radius: 6px;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+form input {
+    background: #EEEEEE;
+    border: 1px solid #DDD;
+    width: calc(100% - 200px);
+    max-width: 300px;
+}
+
+form button {
+    width: 150px;
+    background: #102B4C;
+    margin-left: 10px;
+
+    font-weight: bold;
+    color: #fff;
+    border: 0;
+
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #102B4C;
+}
+
+footer, footer a {
+    font-size: 12px;
+    color: #999;    
+}
+
+footer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-cta {
+    text-align: center;
+    background: #EFF8FF;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.footer-cta > div {
+    width: 90%;
+    margin: auto;
+}
+
+/* Mobile */
+@media only screen and (max-width:48em){
+    .column-reverse {
+        flex-direction: column-reverse;
+    }
+
+    h1, h2, p, .hero .form {
+        text-align: center;
+    }
+
+    .hero .description {
+        max-width: 80%;
+        margin: auto;
+    }
+
+    .center-xs {
+        margin: auto;
+    }
+}
+
+/* Not mobile */
+@media only screen and (min-width:48em){
+    .hero .description {
+        max-width: 385px;
+    }
+}
