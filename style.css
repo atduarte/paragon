@@ -78,7 +78,11 @@ form button {
 }
 
 form button:hover {
-    background: #102B4C;
+    background: #0B1B30;
+}
+
+form button:active {
+    background: #000000;
 }
 
 footer, footer a {
